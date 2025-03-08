@@ -1,0 +1,22 @@
+#include <behaviors.dtsi>
+#include <dt-bindings/zmk/bt.h>
+#include <dt-bindings/zmk/keys.h>
+
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        layer_0 {
+            label = "Base";
+            bindings = <
+&kp L  &kp R  &kp UP_ARROW  &kp X  &kp LEFT  &kp RIGHT  &kp P  &kp S  &kp Y  &kp A  &kp DOWN  &lt 1 F  &kp B
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&bootloader  &bt BT_SEL 4  &bt BT_PRV  &bt BT_SEL 2  &bt BT_PRV  &bt BT_NXT  &bt BT_CLR_ALL  &bt BT_CLR  &bt BT_SEL 3  &bt BT_SEL 0  &bt BT_NXT  &trans  &bt BT_SEL 1
+            >;
+        };
+    };
+};
