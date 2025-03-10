@@ -31,7 +31,12 @@ RC(0,4)         RC(0,5)    RC(0,6) RC(0,7)   RC(0,8)         RC(0,9)
 
 		diode-direction = "row2col";
 		row-gpios
-			= <&gpio0 13 GPIO_ACTIVE_HIGH>
+			= <&gpio0 22 GPIO_ACTIVE_HIGH>
+			, <&gpio1 09 GPIO_ACTIVE_HIGH>
+			, <&gpio0 11 GPIO_ACTIVE_HIGH>
+                        , <&gpio0 12 GPIO_ACTIVE_HIGH>
+			, <&gpio0 19 GPIO_ACTIVE_HIGH>
+			, <&gpio0 13 GPIO_ACTIVE_HIGH>
 			;
 	};
 };
