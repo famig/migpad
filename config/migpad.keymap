@@ -9,12 +9,12 @@
         layer_0 {
             label = "Base";
             bindings = <
-&kp KP_EQUAL_AS400  &kp KP_LEFT_PARENTHESIS  &kp KP_RIGHT_PARENTHESIS  &kp BACKSPACE
-&lt 1 LOCKING_NUM   &kp KP_DIVIDE            &kp KP_MULTIPLY           &kp KP_SUBTRACT
-&kp KP_NUMBER_7     &kp KP_NUMBER_8          &kp KP_NUMBER_9
-&kp KP_NUMBER_4     &kp KP_NUMBER_5          &kp KP_NUMBER_6           &kp KP_PLUS
-&kp KP_NUMBER_1     &kp KP_NUMBER_2          &kp KP_NUMBER_3
-                    &kp KP_NUMBER_0          &kp KP_DOT                &kp KP_ENTER
+&kp ESC          &kp EQUAL        &mo 1            &kp BACKSPACE
+&kp KP_NUM       &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_SUBTRACT
+&kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
+&kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
+&kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
+                 &kp KP_NUMBER_0  &kp KP_DOT       &kp KP_ENTER
             >;
         };
 
