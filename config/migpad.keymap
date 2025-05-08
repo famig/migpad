@@ -1,5 +1,33 @@
 #include <behaviors.dtsi>
+#include <dt-bindings/zmk/backlight.h>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
 
-#include "../../../migpad.keymap"
+/ {
+    keymap {
+        compatible = "zmk,keymap";
+
+        layer_0 {
+            label = "Base";
+            bindings = <
+&kp KP_EQUAL_AS400  &kp KP_LEFT_PARENTHESIS  &kp KP_RIGHT_PARENTHESIS  &kp BACKSPACE
+&lt 1 LOCKING_NUM   &kp KP_DIVIDE            &kp KP_MULTIPLY           &kp KP_SUBTRACT
+&kp KP_NUMBER_7     &kp KP_NUMBER_8          &kp KP_NUMBER_9
+&kp KP_NUMBER_4     &kp KP_NUMBER_5          &kp KP_NUMBER_6           &kp KP_PLUS
+&kp KP_NUMBER_1     &kp KP_NUMBER_2          &kp KP_NUMBER_3
+                    &kp KP_NUMBER_0          &kp KP_DOT                &kp KP_ENTER
+            >;
+        };
+
+        layer_1 {
+            bindings = <
+&trans        &bt BT_PRV    &bt BT_NXT      &bootloader
+&trans        &trans        &trans          &bl BL_DEC
+&trans        &trans        &trans
+&bt BT_SEL 3  &bt BT_SEL 4  &bt BT_NXT      &bl BL_INC
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
+              &bt BT_CLR    &bt BT_CLR_ALL  &bl BL_TOG
+            >;
+        };
+    };
+};
