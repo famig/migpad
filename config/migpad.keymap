@@ -8,10 +8,10 @@
         layer_0 {
             label = "Base";
             bindings = <
-&kp KP_EQUAL     &kp EQUAL                         &kp BACKSPACE
-&kp KP_NUMLOCK   &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_SUBTRACT
+&kp ESC          &kp EQUAL                         &kp BACKSPACE
+&kp KP_NUMLOCK   &kp A            &kp B            &kp C
 &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
-&kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
+&kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp D
 &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
 &kp KP_NUMBER_0                   &kp KP_DOT       &kp KP_ENTER
             >;
