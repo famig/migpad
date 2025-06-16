@@ -12,7 +12,7 @@
 &kp ESC          &kp C_AL_CALCULATOR                   &kp BACKSPACE
 &lt 1 KP_NUM     &kp KP_DIVIDE        &kp KP_MULTIPLY  &kp KP_MINUS
 &kp KP_NUMBER_7  &kp KP_NUMBER_8      &kp KP_NUMBER_9
-&kp KP_N4        &kp KP_NUMBER_5      &kp KP_NUMBER_6  &kp PLUS
+&kp KP_N4        &kp KP_NUMBER_5      &kp KP_NUMBER_6  &kp KP_PLUS
 &kp KP_NUMBER_1  &kp KP_NUMBER_2      &kp KP_NUMBER_3
 &kp KP_NUMBER_0                       &kp KP_DOT       &kp KP_ENTER
             >;
