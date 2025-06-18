@@ -20,12 +20,23 @@
 
         layer_1 {
             bindings = <
-&trans        &trans                        &soft_off
+&mo 2         &trans                        &trans
 &trans        &trans        &trans          &bt BT_NXT
 &trans        &trans        &trans
 &bt BT_SEL 3  &bt BT_SEL 4  &trans          &bt BT_PRV
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
 &bt BT_CLR                  &bt BT_CLR_ALL  &trans
+            >;
+        };
+
+        layer_2 {
+            bindings = <
+&trans  &trans          &trans
+&trans  &trans  &trans  &trans
+&trans  &trans  &trans
+&trans  &trans  &trans  &trans
+&trans  &trans  &trans
+&trans          &trans  &bootloader
             >;
         };
     };
