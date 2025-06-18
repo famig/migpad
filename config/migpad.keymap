@@ -9,18 +9,18 @@
         layer_0 {
             label = "Base";
             bindings = <
-&kp ESC          &kp C_AL_CALC                     &kp BACKSPACE
-&kp KP_NUM       &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS
-&kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
-&kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
-&kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3
-&kp KP_NUMBER_0                   &kp KP_DOT       &kp KP_ENTER
+&kp ESC            &kp C_AL_CALC                     &kp BACKSPACE
+&lt 1 KP_NUMBER_8  &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS
+&kp KP_NUMBER_7    &kp KP_NUMBER_8  &kp KP_NUMBER_9
+&kp KP_N4          &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
+&kp KP_NUMBER_1    &kp KP_NUMBER_2  &kp KP_NUMBER_3
+&kp KP_NUMBER_0                     &kp KP_DOT       &kp KP_ENTER
             >;
         };
 
         layer_1 {
             bindings = <
-&kp K_POWER   &trans                        &trans
+&trans        &trans                        &trans
 &trans        &trans        &trans          &bt BT_NXT
 &trans        &trans        &trans
 &bt BT_SEL 3  &bt BT_SEL 4  &trans          &bt BT_PRV
