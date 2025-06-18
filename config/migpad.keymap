@@ -9,7 +9,7 @@
         layer_0 {
             label = "Base";
             bindings = <
-&kp ESC          &mo 1                             &kp BACKSPACE
+&kp ESC          &kp C_AL_CALC                     &kp BACKSPACE
 &kp KP_NUM       &kp KP_DIVIDE    &kp KP_MULTIPLY  &kp KP_MINUS
 &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9
 &kp KP_N4        &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp KP_PLUS
@@ -20,12 +20,12 @@
 
         layer_1 {
             bindings = <
-&kp C_PWR     &trans                        &trans
+&kp K_POWER   &trans                        &trans
 &trans        &trans        &trans          &bt BT_NXT
 &trans        &trans        &trans
 &bt BT_SEL 3  &bt BT_SEL 4  &trans          &bt BT_PRV
 &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2
-&bt BT_CLR                  &bt BT_CLR_ALL  &bootloader
+&bt BT_CLR                  &bt BT_CLR_ALL  &trans
             >;
         };
     };
